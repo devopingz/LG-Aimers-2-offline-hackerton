@@ -1,87 +1,6 @@
 # LG-Aimers-2-offline-hackerton
 스마트 공장의 제어 시스템 구축을 위한 제품 품질 분류 AI 모델 개발 (X_Feature 추가)
 
----
-layout: single
-title:  "jupyter notebook 변환하기!"
-categories: coding
-tag: [python, blog, jekyll]
-toc: true
-author_profile: false
----
-
-<head>
-  <style>
-    table.dataframe {
-      white-space: normal;
-      width: 100%;
-      height: 240px;
-      display: block;
-      overflow: auto;
-      font-family: Arial, sans-serif;
-      font-size: 0.9rem;
-      line-height: 20px;
-      text-align: center;
-      border: 0px !important;
-    }
-
-    table.dataframe th {
-      text-align: center;
-      font-weight: bold;
-      padding: 8px;
-    }
-
-    table.dataframe td {
-      text-align: center;
-      padding: 8px;
-    }
-
-    table.dataframe tr:hover {
-      background: #b8d1f3; 
-    }
-
-    .output_prompt {
-      overflow: auto;
-      font-size: 0.9rem;
-      line-height: 1.45;
-      border-radius: 0.3rem;
-      -webkit-overflow-scrolling: touch;
-      padding: 0.8rem;
-      margin-top: 0;
-      margin-bottom: 15px;
-      font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-      color: $code-text-color;
-      border: solid 1px $border-color;
-      border-radius: 0.3rem;
-      word-break: normal;
-      white-space: pre;
-    }
-
-  .dataframe tbody tr th:only-of-type {
-      vertical-align: middle;
-  }
-
-  .dataframe tbody tr th {
-      vertical-align: top;
-  }
-
-  .dataframe thead th {
-      text-align: center !important;
-      padding: 8px;
-  }
-
-  .page__content p {
-      margin: 0 0 0px !important;
-  }
-
-  .page__content p > strong {
-    font-size: 0.8rem !important;
-  }
-
-  </style>
-</head>
-
-
 ## Import
 
 
@@ -215,7 +134,7 @@ sns.countplot(data=train_df, x='Y_Class')
 <Axes: xlabel='Y_Class', ylabel='count'>
 </pre>
 <pre>
-<Figure size 432x288 with 1 Axes>
+![image](https://user-images.githubusercontent.com/56243414/227960470-feeffa6f-f14b-4a14-83cc-abe9ce3aa07b.png)
 </pre>
 #Data preprocessing
 
