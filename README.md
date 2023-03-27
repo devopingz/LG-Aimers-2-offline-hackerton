@@ -1,5 +1,13 @@
 # LG-Aimers-2-offline-hackerton
-스마트 공장의 제어 시스템 구축을 위한 제품 품질 분류 AI 모델 개발 (X_Feature 추가)
+## 스마트 공장의 제어 시스템 구축을 위한 제품 품질 분류 AI 모델 개발  
+### 주최 / 주관 : LG AI Research / 데이콘  
+### Public 15위 / private 23위  
+#### 코드실행환경
+##### Python: ver 3.8.10
+##### Google Colab: Linux-5.10.147+-x86_64-with-glibc2.29, Ubuntu 20.04.5 LTS
+##### Scikit-Learn: ver 1.0.3
+##### Pandas: ver 1.3.5
+##### Numpy:  ver 1.22.4
 
 # Import
 
