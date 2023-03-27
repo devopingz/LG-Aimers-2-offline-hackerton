@@ -1,7 +1,7 @@
 # LG-Aimers-2-offline-hackerton
 스마트 공장의 제어 시스템 구축을 위한 제품 품질 분류 AI 모델 개발 (X_Feature 추가)
 
-## Import
+# Import
 
 
 
@@ -56,7 +56,7 @@ def seed_everything(seed):
 seed_everything(37) # Seed 고정
 ```
 
-## Data Load
+# Data Load
 
 
 
@@ -130,13 +130,8 @@ print(train_x)
 sns.countplot(data=train_df, x='Y_Class')
 ```
 
-<pre>
-<Axes: xlabel='Y_Class', ylabel='count'>
-</pre>
-<pre>
-![image](https://user-images.githubusercontent.com/56243414/227960470-feeffa6f-f14b-4a14-83cc-abe9ce3aa07b.png)
-</pre>
-#Data preprocessing
+![image](https://user-images.githubusercontent.com/56243414/227964964-6a690703-3a2a-42e4-b17c-558e60dc190f.png)
+# Data preprocessing
 
 
 
@@ -277,7 +272,7 @@ print("현재 Macro F1 Score의 검증 점수: {:.3f}".format(f1_score(preds2, y
 검증테스트 세트 정확도: 0.713
 현재 Macro F1 Score의 검증 점수: 0.570
 </pre>
-#Voting Classifier Model
+# Voting Classifier Model
 
 
 
@@ -288,7 +283,7 @@ VM = VotingClassifier(
     )
 ```
 
-## Submit
+# Submit
 
 
 
